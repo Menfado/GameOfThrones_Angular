@@ -1,0 +1,8 @@
+<figure *ngIf="character">
+    <h2>{{ character.fullName }}</h2>
+    <img src="{{ character.imageUrl }}" alt="{{ character.fullName }}" />
+    <p>Title: {{ character.title }}</p>
+    <p>Family: {{ character.family }}</p>
+  </figure>
+  <p *ngIf="!character">Loading</p>
+  <a routerLink="../">Back to Characters</a>

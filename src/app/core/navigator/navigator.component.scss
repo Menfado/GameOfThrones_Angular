@@ -1,0 +1,27 @@
+nav {
+    & ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 10vh;
+     
+  
+      & li {
+        list-style-type: none;
+  
+        a {
+          text-decoration: none;
+          font-family: 'Cinzel Decorative', cursive;
+          color: black;
+          text-transform: uppercase;
+  
+          &:hover {
+            color: burlywood;
+          }
+          &.active {font-style: oblique;
+          }
+        }
+      }
+    }
+  }

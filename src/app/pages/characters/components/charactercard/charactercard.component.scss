@@ -1,0 +1,15 @@
+figure{
+    display: flex;flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    background-color: brown;
+    border: 4px solid black;
+
+    & img{
+        width: 90%;
+        max-height: auto;
+        object-fit: cover;
+    }
+
+}
